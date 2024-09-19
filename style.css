@@ -313,12 +313,87 @@ aside img {
   font-size: 20px;
 }
 
+.margenesCategorias {
+  margin: 100px;
+}
+
+.categoriasProducto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.categoriasProducto h2 {
+  color: white;
+}
+
+.sectionProductos {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.cardProductos {
+  width: 270px;
+  background: linear-gradient(rgba(163, 163, 163, 0.4), transparent);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardProductos img {
+  width: 250px;
+}
+
+.cardProductos .botonesProducto {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cardProductos div p {
+  color: #bdbcbc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cardProductos .botonesProducto a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #bdbcbc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #000000;
+}
+
+.cardProductos .botonesProducto a img {
+  width: 24px;
+}
+
 .formulario {
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cardProductos .botonesProducto .buttonComprar {
+  background-color: #5e17eb;
+  padding: 10px 18px;
+}
+
+.cardProductos .botonesProducto .buttonComprar:hover {
+  background-color: #b6f319;
+  color: #000000;
+  padding: 10px 18px;
 }
 
 .form-container {
@@ -366,7 +441,6 @@ aside img {
   padding: 12px 16px;
   border-radius: 8px;
   color: #bdbcbc;
-
   background-color: transparent;
   border: 1px solid #414141;
 }
