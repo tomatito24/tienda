@@ -235,6 +235,7 @@ aside img {
 #section-steps .text-steps h3 {
   width: 40%;
   font-size: 50px;
+  font-weight: 600;
   background: linear-gradient(90deg, #ebebeb, #afafaf, #4d4544);
   -webkit-background-clip: text;
   background-clip: text;
