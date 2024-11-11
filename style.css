@@ -162,6 +162,7 @@ section aside {
   justify-content: center;
 }
 
+
 aside img {
   width: 70%;
   animation: jump 6s ease-in-out infinite;
@@ -231,8 +232,16 @@ aside img {
   align-items: center;
   justify-content: space-around;
 }
+@media(max-width: 400px;);{
+  #section-steps .text-steps {
+  
+  align-items: center;
+  flex-direction: column;
+}
+}
 
-#section-steps .text-steps h3 {
+#
+section-steps .text-steps h3 {
   width: 40%;
   font-size: 50px;
   font-weight: 600;
@@ -240,6 +249,8 @@ aside img {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
 }
 
 #section-steps .text-steps h3 span {
@@ -317,6 +328,7 @@ aside img {
   margin: 100px;
 }
 
+
 .categoriasProducto {
   display: flex;
   flex-direction: column;
@@ -333,6 +345,13 @@ aside img {
   gap: 40px;
   align-items: center;
 }
+@media (max-width: 350px){
+  .sectionProductos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 
 .cardProductos {
   width: 270px;
@@ -348,6 +367,7 @@ aside img {
 .cardProductos img {
   width: 250px;
 }
+
 
 .cardProductos .botonesProducto {
   gap: 20px;
